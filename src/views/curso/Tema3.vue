@@ -1,10 +1,208 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Título tema'")
+    BannerInterno(:subTitulo="'3. Características, clasificación y pasos que se deben tener en cuenta para elaborar un juego didáctico'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
+      .row.mb-5
+        .col-lg-4
+          figure
+            img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in")
+        .col-lg-8
+          .bg-color-3.p-4(data-aos="fade-left").mb-4
+            p.mb-0 El juego es fundamental en la educación infantil, ya que facilita la transición del hogar a la escuela y forma parte del proceso de aprendizaje. A través del juego, los niños exploran, prueban y descubren el mundo, lo que les permite adaptarse a diversas situaciones. Además, satisface necesidades básicas como el ejercicio físico y la expresión emocional, contribuyendo al desarrollo de la inteligencia emocional y a la formación de habilidades sociales (Andrío, 2017).
+      
+          p(data-aos="fade-left").mb-4 A medida que los niños crecen, es un error pensar que deben abandonar el juego en favor de tareas más intelectuales. Muchas empresas han incorporado elementos lúdicos en sus metodologías de trabajo, demostrando que el juego sigue siendo valioso en la adultez. La capacidad de jugar permite a las personas crear un espacio de diversión y reconstruir su identidad, alejándose de las normas cotidianas que pueden limitar su libertad (Andrío, 2017).
+
+
+      .bg-full-width.image-out-bg-4.mb-5
+        .px-4.px-md-5
+          .row.align-items-center
+
+            .col-lg
+              .pt-4
+                p.mb-3 Ahora bien, ¿qué es un juego didáctico? Para Serifer (2020), los juegos didácticos potencian habilidades cognitivas, motrices, intelectuales y sociales. Se basan en conocimientos adquiridos en el proceso educativo y contribuyen al desarrollo de habilidades como la motricidad fina y gruesa, la atención, la memoria y la coordinación.
+
+                p.mb-0 Los juegos educativos fomentan la motivación y convierten cualquier contenido en una experiencia atractiva. Un juego didáctico se define como una actividad estructurada con reglas claras y objetivos pedagógicos, diseñada para facilitar el aprendizaje mediante la diversión y la interacción.
+
+            .col-lg-auto
+              img(src="@/assets/curso/tema3/2.svg", style="max-width: 400px").mx-auto      
+
+
       #t_3_1.titulo-segundo(data-aos="flip-up")
-        h2 #[span 3.1] Subtítulo tema
+        h2 #[span 3.1] Características y clasificación
+
+      
+      p(data-aos="fade-left").mb-4 Los juegos didácticos pueden clasificarse en función del material y el espacio donde se desarrollan:
+
+      .bg-full-width.bg-fondo-slider.mb-5
+        .p-4.p-md-5
+          SlyderA(tipo="b").bg-white
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5
+                figure
+                  img(src="@/assets/curso/tema3/slide-1.png")
+              .col-lg-7
+                h4 Juegos educativos en línea
+                p Se realizan a través de dispositivos electrónicos como computadoras, tabletas o teléfonos móviles. Pueden encontrarse en plataformas en línea o aplicaciones educativas.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5
+                figure
+                  img(src="@/assets/curso/tema3/slide-2.png")
+              .col-lg-7
+                h4 Juegos educativos manipulativos
+                p Involucran materiales físicos, como cartas, tableros y fichas, facilitando el aprendizaje práctico y participativo.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5
+                figure
+                  img(src="@/assets/curso/tema3/slide-3.png")
+              .col-lg-7
+                h4 Juegos educativos motrices
+                p Requieren el uso del cuerpo e incluyen actividades como correr, saltar y agacharse, contribuyendo al desarrollo físico.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5
+                figure
+                  img(src="@/assets/curso/tema3/slide-4.png")
+              .col-lg-7
+                h4 Juegos para la memoria
+                p Diseñados para fortalecer la retención de información de forma lúdica y sin presión.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5
+                figure
+                  img(src="@/assets/curso/tema3/slide-5.png")
+              .col-lg-7
+                h4 Juegos para la atención
+                p Enfocados en mejorar la concentración y la capacidad de enfoque en tareas específicas.
+
+      .bg-full-width.bg-fondo-5.mb-5
+        .p-4.p-md-5
+          p(data-aos="fade-left").mb-4 Además, los juegos didácticos presentan ciertas características que los diferencian de otros tipos de juegos:
+
+
+          .row.justify-content-center.align-items-stretch.mb-4
+            .col-lg-4
+              .bg-color-3.p-4(data-aos="fade-left").h-100
+                .row.align-items-center
+                  .col-lg-auto
+                    img(src="@/assets/curso/tema3/3.svg", style="max-width: 90px").mx-auto
+                  .col-lg
+                    h5.mb-2 Finalidad educativa
+                    p.mb-0 Están diseñados para enseñar conceptos o desarrollar habilidades.
+          
+            .col-lg-4
+              .bg-color-3.p-4(data-aos="fade-left").h-100
+                .row.align-items-center
+                  .col-lg-auto
+                    img(src="@/assets/curso/tema3/3.svg", style="max-width: 90px").mx-auto
+                  .col-lg
+                    h5.mb-2 Interactividad
+                    p.mb-0 Requieren la participación activa de los jugadores.
+          
+            .col-lg-4
+              .bg-color-3.p-4(data-aos="fade-left").h-100
+                .row.align-items-center
+                  .col-lg-auto
+                    img(src="@/assets/curso/tema3/3.svg", style="max-width: 90px").mx-auto
+                  .col-lg
+                    h5.mb-2 Reglas claras
+                    p.mb-0 Establecen normas que guían el desarrollo del juego.
+
+
+          .row.justify-content-center.align-items-stretch.mb-4
+            .col-lg-4
+              .bg-color-3.p-4(data-aos="fade-left").h-100
+                .row.align-items-center
+                  .col-lg-auto
+                    img(src="@/assets/curso/tema3/3.svg", style="max-width: 90px").mx-auto
+                  .col-lg
+                    h5.mb-2 Diversión y motivación
+                    p.mb-0 Incorporan elementos lúdicos que mantienen el interés del estudiante.
+          
+            .col-lg-8
+              .bg-color-3.p-4(data-aos="fade-left").h-100
+                .row.align-items-center
+                  .col-lg-auto
+                    img(src="@/assets/curso/tema3/3.svg", style="max-width: 90px").mx-auto
+                  .col-lg
+                    h5.mb-2 Evaluación implícita
+                    p.mb-0 Permiten medir el aprendizaje de manera natural y sin presión.
+
+
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-9
+          .bg-color-white.shadow-soft.py-4.px-lg-5
+            .row.justify-content-around.align-items-center
+              .col-md-auto
+                img(src="@/assets/template/bg-icono-video.svg", style="width: 90px;")
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    h3.mb-1 Gamificación en la educación
+                    p Para profundizar en el uso del juego en educación, se recomienda ver el siguiente video:
+                  .col-sm-auto
+                    a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=BqGj_XyKE_g" target="_blank")
+                      span Ver video
+                      i.fas.fa-arrow-right
+
+
+      #t_3_2.titulo-segundo(data-aos="flip-up")
+        h2 #[span 3.2] Pasos para elaborar un juego didáctico
+
+      
+      p(data-aos="fade-left").mb-4 Elaborar un juego didáctico requiere planificación para garantizar su efectividad. Según Bautista Vallejo (2002), el diseño de un juego educativo debe seguir estos pasos:
+
+      .row.align-items-center.mb-5
+        .col-lg-8.order-2.order-lg-1
+
+          AcordionA(tipo="b")
+            .div(titulo="Definir el objetivo de aprendizaje")
+              p Identificar qué conocimientos o habilidades se reforzarán a través del juego. #[strong Ejemplo:] Un juego sobre ortografía puede centrarse en la correcta escritura de palabras difíciles.
+          
+            .div(titulo="Seleccionar el tipo de juego")
+              p Elegir el formato adecuado según la edad, recursos y complejidad del contenido. 
+              p #[strong Ejemplo:] 
+              ul.lista-ul.mb-3
+                li.mb-1
+                  i.lista-ul__vineta
+                  | Juego digital: "Kahoot" sobre matemáticas. 
+                li.mb-1
+                  i.lista-ul__vineta
+                  | Juego de mesa: cartas con eventos históricos. 
+                li.mb-1
+                  i.lista-ul__vineta
+                  | Juego físico: carrera de palabras. 
+                li.mb-1
+                  i.lista-ul__vineta
+                  | Juego de rol: simulación de un mercado.
+          
+            .div(titulo="Diseñar las reglas del juego")
+              p Definir normas claras y equitativas. #[strong Ejemplo:] En un juego de geografía, los jugadores avanzan en un mapa al responder preguntas correctamente.
+          
+            .div(titulo="Desarrollar los materiales del juego")
+              p Crear elementos físicos o digitales necesarios para la dinámica del juego. 
+              p #[strong Ejemplo:] En un juego de trivia científica:
+              ul.lista-ul.mb-3
+                li.mb-1
+                  i.lista-ul__vineta
+                  | Tarjetas con preguntas.
+                li.mb-1
+                  i.lista-ul__vineta
+                  | Tablero con casillas temáticas.
+                li.mb-1
+                  i.lista-ul__vineta
+                  | Fichas o fichas de colores.
+                li.mb-1
+                  i.lista-ul__vineta
+                  | Reloj de arena para medir el tiempo.
+
+            .div(titulo="Realizar pruebas piloto")
+              p Aplicar el juego con un grupo reducido antes de su implementación total. #[strong Ejemplo:] En una prueba piloto de un juego de cálculo mental, se ajustó la dificultad de las preguntas.
+
+          
+        .col-lg-4.order-1.order-lg-2
+          figure
+            img(src="@/assets/curso/tema3/4.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+      
+      
 
       .bg-full-width.border-top.actividad.bg-color-actividad
         .p-4.p-md-5
@@ -225,4 +423,26 @@ export default {
 <style lang="sass">
 .bg-color-actividad
   background-color: #EBF1F5
+
+.image-out-bg-4
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0%
+    left: 0
+    width: 100%
+    height: 90%
+    transform: translateY(-0%)
+    background-color: #DCE8FA
+    z-index: 0
+  .col-lg-auto, .col-lg, .row
+    z-index: 1
+
+
+  @media screen and (max-width: bp-max-md)
+    padding: 1rem
+
+    &::after
+      height: 100%
 </style>

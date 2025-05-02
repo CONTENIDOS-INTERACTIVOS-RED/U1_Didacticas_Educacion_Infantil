@@ -17,11 +17,12 @@
 
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #C3F3FB
   &-2
-    background-color: #FFFBE8
+    background-color: #D9D5E3
   &-3
-    background-color: #F0E9F6
+    background-color: #FBF4C9
+
   &-4
     background-color: #EAF8FD
   &-info
@@ -49,16 +50,41 @@
     padding-left: 1.5rem
     padding-right: 1.5rem
 
+
+.bg-full-width-2
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: bottom
+  margin-inline: -3.3rem
+  @media screen and (max-width: $bp-max-sm)
+    padding-left: 1.5rem
+    padding-right: 1.5rem
+
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
     background-position: top
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
     background-position: bottom
+  &-3
+    background-image: url("../assets/bg/bg3.svg") !important
+    background-position: bottom
+    background-repeat: no-repeat
+    background-position: 0 400px
+  &-4
+    background-image: url("../assets/bg/bg4.png") !important
+    background-position: bottom
+    background-repeat: no-repeat
+    background-position: 0 340px
+  &-5
+    background-image: url("../assets/bg/bg5.png") !important
+    background-position: bottom
+    background-repeat: no-repeat
+    background-position: 0 0px
 
 // Variables
 $custom-card-border-radius: 0px
@@ -97,15 +123,15 @@ $custom-card-img-height: 322px
 
 
 .acordion__header
-  background-color: lighten($color-acento-contenido, 25%) !important
+  background-color: #EBE9F0 !important
 
 .acordion__header--active
-  background-color: $color-acento-contenido !important
+  background-color: #453179 !important
   h4, i
-    color: #000 !important
+    color: #fff !important
 
 .acordion__contenido
-  background-color: lighten($color-acento-contenido, 27%) !important
+  background-color: #EBE9F0 !important
 
 
 .anexo__texto
@@ -189,6 +215,7 @@ $custom-card-img-height: 322px
     background-color: lighten($color-primario, 30%)
   .linea-tiempo-d__item__content__title.active
     background-color: $color-primario !important
+    color: #fff !important
   .linea-tiempo-d__item__content__slot
     border-radius: 0px 0px 5px 5px
     background-color: lighten($color-primario, 37%) !important
@@ -196,6 +223,7 @@ $custom-card-img-height: 322px
     background-color: lighten($color-primario, 30%)
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
     background-color: $color-primario !important
+    color: #fff !important
   .linea-tiempo-d__item__dots:after
     border-left: 0px
   .fa-angle-up, .fa-angle-down

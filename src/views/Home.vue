@@ -22,12 +22,8 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los comienzos de la humanidad, la relación entre los principios éticos, el desarrollo económico y la sostenibilidad ha sido fundamental para garantizar un progreso equilibrado y equitativo. En un contexto globalizado, donde los desafíos éticos y ambientales son cada vez más evidentes, la bioética emerge como una herramienta clave para orientar decisiones económicas responsables que respeten tanto el medio ambiente como los derechos humanos.
-
-              p.descripcion.mb-4 En esta unidad, profundizaremos en el rol de la bioética como pilar de la sostenibilidad en el desarrollo económico, explorando temas esenciales como la aplicación de principios éticos al uso de recursos naturales, la influencia de las políticas globales en la protección de los derechos humanos y la ética en la innovación tecnológica. 
+              p.descripcion.mb-4 DEl juego es esencial en el desarrollo infantil, promoviendo habilidades cognitivas, emocionales, sociales y físicas. El documento 22 del MEN destaca su importancia como derecho fundamental, orientando a educadores en su integración pedagógica. Se clasifican distintos tipos de juegos: libre, dirigido, de roles, cooperativo y de construcción, cada uno con reglas flexibles y adaptables. Además, los juegos didácticos fortalecen el aprendizaje a través de la interacción y la creatividad. Finalmente, la recreación escolar fomenta el pensamiento, la convivencia y el bienestar, requiriendo planificación y evaluación para su implementación efectiva.
               
-              p #[b Prepárate para explorar los retos y oportunidades que la sostenibilidad y la bioética presentan en un mundo en constante evolución.]
-
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   .iniciar-btn-container.w-100.w-md-auto
@@ -108,7 +104,7 @@ export default {
         background-color: $color-acento-botones
         padding: 12px 42px 12px 32px
         width: 100%
-        color: #fff !important
+        color: #000 !important
     .icon
       background-color: $color-sistema-e
       padding: 0px 20px
@@ -149,12 +145,13 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: $color-acento-botones !important
+    background-color: #6AE2F6 !important
     color: #0B0A0A !important
   .icon
     transition: all 0.25s ease-in-out
     // background-color: #083E61 !important
-    background-color: darken($color-acento-botones, 30% ) !important
+    background-color: #083E61 !important
+    color: #fff !important
   &:hover
     .icon
       transform: scale(1.06)
