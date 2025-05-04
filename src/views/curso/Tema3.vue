@@ -107,7 +107,7 @@
                     p.mb-0 Establecen normas que guían el desarrollo del juego.
 
 
-          .row.justify-content-center.align-items-stretch.mb-4
+          .row.justify-content-center.align-items-stretch.mb-5
             .col-lg-4
               .bg-color-3.p-4(data-aos="fade-left").h-100
                 .row.align-items-center
@@ -127,7 +127,7 @@
                     p.mb-0 Permiten medir el aprendizaje de manera natural y sin presión.
 
 
-      .row.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5(style="margin-top: -100px;")
         .col-lg-9
           .bg-color-white.shadow-soft.py-4.px-lg-5
             .row.justify-content-around.align-items-center
@@ -139,69 +139,218 @@
                     h3.mb-1 Gamificación en la educación
                     p Para profundizar en el uso del juego en educación, se recomienda ver el siguiente video:
                   .col-sm-auto
-                    a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=BqGj_XyKE_g" target="_blank")
+                    a.boton.color-secundario(href="https://www.youtube.com/watch?v=BqGj_XyKE_g" target="_blank")
                       span Ver video
                       i.fas.fa-arrow-right
 
 
-      #t_3_2.titulo-segundo(data-aos="flip-up")
-        h2 #[span 3.2] Pasos para elaborar un juego didáctico
+      .bg-full-width.bg-fondo-5.mb-5
+        .p-4.p-md-5
+          #t_3_2.titulo-segundo(data-aos="flip-up")
+            h2 #[span 3.2] Pasos para elaborar un juego didáctico
+
+          
+          p(data-aos="fade-left").mb-4 Elaborar un juego didáctico requiere planificación para garantizar su efectividad. Según Bautista Vallejo (2002), el diseño de un juego educativo debe seguir estos pasos:
+
+          .row.align-items-start.mb-5
+            .col-lg-8.order-2.order-lg-1
+
+              AcordionA(tipo="b")
+                .div(titulo="Definir el objetivo de aprendizaje")
+                  p Identificar qué conocimientos o habilidades se reforzarán a través del juego. #[strong Ejemplo:] Un juego sobre ortografía puede centrarse en la correcta escritura de palabras difíciles.
+              
+                .div(titulo="Seleccionar el tipo de juego")
+                  p Elegir el formato adecuado según la edad, recursos y complejidad del contenido. 
+                  p #[strong Ejemplo:] 
+                  ul.lista-ul.mb-3
+                    li.mb-1
+                      i.lista-ul__vineta
+                      | Juego digital: "Kahoot" sobre matemáticas. 
+                    li.mb-1
+                      i.lista-ul__vineta
+                      | Juego de mesa: cartas con eventos históricos. 
+                    li.mb-1
+                      i.lista-ul__vineta
+                      | Juego físico: carrera de palabras. 
+                    li.mb-1
+                      i.lista-ul__vineta
+                      | Juego de rol: simulación de un mercado.
+              
+                .div(titulo="Diseñar las reglas del juego")
+                  p Definir normas claras y equitativas. #[strong Ejemplo:] En un juego de geografía, los jugadores avanzan en un mapa al responder preguntas correctamente.
+              
+                .div(titulo="Desarrollar los materiales del juego")
+                  p Crear elementos físicos o digitales necesarios para la dinámica del juego. 
+                  p #[strong Ejemplo:] En un juego de trivia científica:
+                  ul.lista-ul.mb-3
+                    li.mb-1
+                      i.lista-ul__vineta
+                      | Tarjetas con preguntas.
+                    li.mb-1
+                      i.lista-ul__vineta
+                      | Tablero con casillas temáticas.
+                    li.mb-1
+                      i.lista-ul__vineta
+                      | Fichas o fichas de colores.
+                    li.mb-1
+                      i.lista-ul__vineta
+                      | Reloj de arena para medir el tiempo.
+
+                .div(titulo="Realizar pruebas piloto")
+                  p Aplicar el juego con un grupo reducido antes de su implementación total. #[strong Ejemplo:] En una prueba piloto de un juego de cálculo mental, se ajustó la dificultad de las preguntas.
+
+              
+            .col-lg-4.order-1.order-lg-2
+              figure
+                img(src="@/assets/curso/tema3/4.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+          
+      
+      .row.justify-content-center.align-items-center.mb-5(style="margin-top: -100px;")
+        .col-lg-9
+          .bg-color-white.shadow-soft.py-4.px-lg-5
+            .row.justify-content-around.align-items-center
+              .col-md-auto
+                img(src="@/assets/template/bg-icono-link.svg", style="width: 90px;")
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    h3.mb-1 El juego-trabajo como estrategia de enseñanza-aprendizaje en Educación Inicial
+                    p Para profundizar en este tema, se recomienda consultar el siguiente artículo:
+                  .col-sm-auto
+                    a.boton.color-secundario(href="https://journal.espe.edu.ec/ojs/index.php/vinculos/article/download/1811/1820" target="_blank")
+                      span Ir al sitio
+                      i.fas.fa-arrow-right
+
+
+      #t_3_3.titulo-segundo(data-aos="flip-up")
+        h2 #[span 3.3] Los juguetes como juego didáctico
 
       
-      p(data-aos="fade-left").mb-4 Elaborar un juego didáctico requiere planificación para garantizar su efectividad. Según Bautista Vallejo (2002), el diseño de un juego educativo debe seguir estos pasos:
+      p.mb-4 Los juguetes pueden ser herramientas didácticas en el aula, ayudando a alcanzar objetivos educativos y a ambientar la introducción de nuevos contenidos.
 
-      .row.align-items-center.mb-5
-        .col-lg-8.order-2.order-lg-1
 
-          AcordionA(tipo="b")
-            .div(titulo="Definir el objetivo de aprendizaje")
-              p Identificar qué conocimientos o habilidades se reforzarán a través del juego. #[strong Ejemplo:] Un juego sobre ortografía puede centrarse en la correcta escritura de palabras difíciles.
-          
-            .div(titulo="Seleccionar el tipo de juego")
-              p Elegir el formato adecuado según la edad, recursos y complejidad del contenido. 
-              p #[strong Ejemplo:] 
-              ul.lista-ul.mb-3
-                li.mb-1
-                  i.lista-ul__vineta
-                  | Juego digital: "Kahoot" sobre matemáticas. 
-                li.mb-1
-                  i.lista-ul__vineta
-                  | Juego de mesa: cartas con eventos históricos. 
-                li.mb-1
-                  i.lista-ul__vineta
-                  | Juego físico: carrera de palabras. 
-                li.mb-1
-                  i.lista-ul__vineta
-                  | Juego de rol: simulación de un mercado.
-          
-            .div(titulo="Diseñar las reglas del juego")
-              p Definir normas claras y equitativas. #[strong Ejemplo:] En un juego de geografía, los jugadores avanzan en un mapa al responder preguntas correctamente.
-          
-            .div(titulo="Desarrollar los materiales del juego")
-              p Crear elementos físicos o digitales necesarios para la dinámica del juego. 
-              p #[strong Ejemplo:] En un juego de trivia científica:
-              ul.lista-ul.mb-3
-                li.mb-1
-                  i.lista-ul__vineta
-                  | Tarjetas con preguntas.
-                li.mb-1
-                  i.lista-ul__vineta
-                  | Tablero con casillas temáticas.
-                li.mb-1
-                  i.lista-ul__vineta
-                  | Fichas o fichas de colores.
-                li.mb-1
-                  i.lista-ul__vineta
-                  | Reloj de arena para medir el tiempo.
-
-            .div(titulo="Realizar pruebas piloto")
-              p Aplicar el juego con un grupo reducido antes de su implementación total. #[strong Ejemplo:] En una prueba piloto de un juego de cálculo mental, se ajustó la dificultad de las preguntas.
-
-          
-        .col-lg-4.order-1.order-lg-2
-          figure
-            img(src="@/assets/curso/tema3/4.png", alt="", data-aos="zoom-in").mb-4.mb-lg-0
+      .bg-color-3.mb-5(data-aos="fade-up")
+        .row.justify-content-center.align-items-center
+          .col-lg-auto
+            figure
+              img(src='@/assets/curso/tema3/5.png', alt='')
+          .col-lg
+            .p-4
+              p.mb-0(data-aos="fade-up") Según la RAE, un juguete es un objeto que los niños usan para jugar y desarrollar capacidades. Losada Gómez (2009) amplía esta definición, señalando que un juguete puede ser cualquier objeto, acontecimiento o experiencia que influya en el desarrollo infantil.
       
+      
+      p Existen distintos tipos de juguetes, que pueden clasificarse en tres niveles según Borja (1994):
+
+      .bg-full-width.bg-fondo-6
+        .p-4.p-md-5
+          div.row.justify-content-center.align-items-stretch.mb-4
+            div.col-lg-4.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema3/6.svg"
+                  alt=""
+                  style="width: 95px"
+                )
+                h4.text-center Juguete creado
+                p.mb-0.text-center Hecho por los niños a partir de materiales simples, fomentando la creatividad.
+          
+            div.col-lg-4.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema3/6.svg"
+                  alt=""
+                  style="width: 95px"
+                )
+                h4.text-center Juguete instrumento
+                p.mb-0.text-center Sirve como medio para facilitar la actividad lúdica y el aprendizaje.
+          
+            div.col-lg-4.mb-4(data-aos="zoom-in-up")
+              div.bg-color-white.box-shadow.px-4.py-5.h-100
+                img.mx-auto.d-block.mb-4(
+                  src="@/assets/curso/tema3/6.svg"
+                  alt=""
+                  style="width: 95px"
+                )
+                h4.text-center Juguete producto industrial
+                p.mb-0.text-center Diseñado y fabricado con un propósito educativo y recreativo.
+          
+
+          p.mb-4 Los juguetes educativos ofrecen múltiples beneficios:
+
+          .row.align-items-stretch
+            .col-lg-3
+              .bg-color-1.p-4.h-100
+                h4 01
+                p.mb-0 Estimulan la creatividad y la imaginación.
+
+            .col-lg-3
+              .bg-color-1.p-4.h-100
+                h4 02
+                p.mb-0 Desarrollan habilidades motoras, cognitivas y emocionales.
+
+            .col-lg-3
+              .bg-color-1.p-4.h-100
+                h4 03
+                p.mb-0 Fomentan la autonomía y la autoconfianza.
+
+            .col-lg-3
+              .bg-color-1.p-4.h-100
+                h4 04
+                p.mb-0 Promueven el respeto y la sana competencia en juegos grupales.
+
+
+      .bg-full-width.image-out-bg-5.mb-5
+        .px-4.px-md-5
+          .row.align-items-center
+            .col-lg-auto
+              img(src="@/assets/curso/tema3/7.svg", style="max-width: 295px").mx-auto
+            .col-lg
+              .pt-4
+                p.mb-3.text-white Aruiz (2020) sostiene que los juguetes educativos deben elegirse cuidadosamente para potenciar el aprendizaje. Dependiendo de la edad, es recomendable proporcionar juguetes que estimulen habilidades sensoriales, cognitivas y sociales.
+      
+
+      .bg-full-width.bg-fondo-6
+        .p-4.p-md-5
+
+          .row.justify-content-center.align-items-stretch.mb-5
+            .col-lg-4.mb-4(data-aos="zoom-in-up")
+              .custom-image-card-2.h-100
+                img.custom-image-card__image(src="@/assets/curso/tema3/8.png" alt="")
+                .custom-image-card__text.p-4
+                  h5.mb-2.text-center 1-3 años
+                  p.mb-0.text-center Juguetes para desarrollar la capacidad sensorial y la coordinación viso-manual.
+            .col-lg-4.mb-4(data-aos="zoom-in-down")
+              .custom-image-card-2.h-100
+                img.custom-image-card__image(src="@/assets/curso/tema3/9.png" alt="")
+                .custom-image-card__text.p-4
+                  h5.mb-2.text-center 3-6 años
+                  p.mb-0.text-center Juguetes que refuercen habilidades previas y fomenten la resolución de problemas.
+            .col-lg-4.mb-4(data-aos="zoom-in-down")
+              .custom-image-card-2.h-100
+                img.custom-image-card__image(src="@/assets/curso/tema3/10.png" alt="")
+                .custom-image-card__text.p-4
+                  h5.mb-2.text-center 6+
+                  p.mb-0.text-center Juguetes que incorporen conceptos de lectoescritura, matemáticas y cultura general.
+          
+
+      p En un mundo donde la educación evoluciona constantemente, integrar los juegos y juguetes en el aula es una estrategia efectiva para fomentar el desarrollo integral de los niños. La formación de los educadores en este aspecto es clave para aprovechar al máximo estos recursos y diseñar experiencias de aprendizaje más efectivas y motivadoras.
+
+      .bg-full-width.bg-color-2
+        .px-4.p-md-5
+          .row.justify-content-center.align-items-center
+            .col-lg-5
+              figure(data-aos="zoom-in")
+                img(src='@/assets/curso/tema3/11.png', alt='')
+      
+            .col-lg-7
+              h2.mb-4(data-aos="flip-up") Creación y diseño de una estructura de recreación
+              p.mb-4(data-aos="fade-right") Los invitamos a leer Creación y diseño de una estructura de recreación, un enfoque innovador para transformar la convivencia escolar a través de la recreación. Este material explora la importancia de diseñar espacios recreativos que fomenten el aprendizaje, la interacción social y el bienestar estudiantil. 
+      
+              a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
+                .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                  img(src="@/assets/template/icono-pdf.svg")
+                .anexo__texto
+                  p <strong>Anexo. </strong> Creación y diseño de una estructura de recreación.
       
 
       .bg-full-width.border-top.actividad.bg-color-actividad
@@ -253,156 +402,150 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál de las siguientes es una característica fundamental de los derechos humanos?',
+              '¿Cuál de los siguientes NO es un objetivo fundamental del juego según el documento 22 del MEN?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Son temporales y cambiantes',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Son universales y aplican a todas las personas',
+                texto: 'Fomentar la competencia desmedida entre los niños.',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'Promover el desarrollo integral de los niños.',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Son exclusivos de ciertos grupos',
+                texto: 'Estimular la creatividad y la imaginación.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Son opcionales',
+                texto: 'Favorecer la socialización y la cooperación.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Correcto! Fomentar la competencia desmedida no es un objetivo fundamental del juego.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los objetivos fundamentales del juego según el MEN.',
           },
           {
             id: 2,
             texto:
-              '¿Cuál de las siguientes afirmaciones sobre la diversidad cultural es correcta?',
+              '¿Cuál de las siguientes NO es una competencia que se busca desarrollar a través de la educación física, la recreación y el deporte según el documento 15 del MEN?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
-              {
-                id: 'a',
-                texto: 'Fomenta la homogeneización cultural',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto: 'Promueve el respeto y la aceptación de las diferencias',
-                esCorrecta: true,
-              },
+              { id: 'a', texto: 'Competencia motriz.', esCorrecta: false },
+              { id: 'b', texto: 'Competencia lingüística.', esCorrecta: true },
               {
                 id: 'c',
-                texto: 'Debilita la identidad cultural de los pueblos',
+                texto: 'Competencia expresiva corporal.',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Limita las oportunidades de interacción',
+                texto: 'Competencia axiológica corporal.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Correcto! La competencia lingüística no es el foco principal en este contexto.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa las competencias que se desarrollan en educación física, recreación y deporte.',
           },
           {
             id: 3,
             texto:
-              'La mediación en un conflicto tiene como objetivo principal:',
+              '¿Cuál de las siguientes NO es una característica esencial del juego?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Imponer una solución rápida',
+                texto: 'Reglas (implícitas o explícitas).',
                 esCorrecta: false,
               },
-              {
-                id: 'b',
-                texto: 'Facilitar el diálogo entre las partes',
-                esCorrecta: true,
-              },
-              {
-                id: 'c',
-                texto: 'Determinar la culpabilidad',
-                esCorrecta: false,
-              },
-              {
-                id: 'd',
-                texto: 'Ignorar las preocupaciones de una parte',
-                esCorrecta: false,
-              },
+              { id: 'b', texto: 'Libertad.', esCorrecta: false },
+              { id: 'c', texto: 'Intrínseca motivación.', esCorrecta: false },
+              { id: 'd', texto: 'Obligatoriedad.', esCorrecta: true },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Correcto! La obligatoriedad no es una característica esencial del juego.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa las características esenciales del juego.',
           },
           {
             id: 4,
-            texto: 'En un foro comunitario, es importante:',
+            texto:
+              '¿Cuál de los siguientes es un paso fundamental en la elaboración de un juego didáctico?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Escuchar solo a las autoridades',
+                texto:
+                  'Utilizar materiales complejos y difíciles de conseguir.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Fomentar la participación de todos los miembros',
-                esCorrecta: true,
+                texto:
+                  'Diseñar el juego sin tener en cuenta el público objetivo.',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Decidir por votación sin consultar a los demás',
-                esCorrecta: false,
+                texto: 'Definir el tema y los objetivos de aprendizaje.',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Excluir las opiniones de los más jóvenes',
+                texto: 'No evaluar la efectividad del juego.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Correcto! Definir el tema y los objetivos de aprendizaje es fundamental.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los pasos fundamentales para elaborar un juego didáctico.',
           },
           {
             id: 5,
             texto:
-              '¿Qué busca la justicia restaurativa en el contexto de un conflicto?',
+              '¿Cuál de los siguientes elementos NO es esencial en el diseño de una estructura de recreación?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Aplicar una sanción severa',
+                texto: 'Definir los objetivos de la recreación.',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Reparar el daño y restablecer las relaciones',
-                esCorrecta: true,
+                texto: 'Identificar los recursos disponibles.',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Castigar a las partes involucradas',
-                esCorrecta: false,
+                texto:
+                  'Ignorar las necesidades e intereses de los participantes.',
+                esCorrecta: true,
               },
               {
                 id: 'd',
-                texto: 'Ignorar el contexto del conflicto',
+                texto: 'Establecer un cronograma y un presupuesto.',
                 esCorrecta: false,
               },
             ],
-            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+            mensaje_correcto:
+              '¡Correcto! Ignorar las necesidades e intereses de los participantes no es esencial.',
+            mensaje_incorrecto:
+              'Incorrecto. Revisa los elementos esenciales en el diseño de una estructura de recreación.',
           },
         ],
         mensaje_final_aprobado:
@@ -435,6 +578,29 @@ export default {
     height: 90%
     transform: translateY(-0%)
     background-color: #DCE8FA
+    z-index: 0
+  .col-lg-auto, .col-lg, .row
+    z-index: 1
+
+
+  @media screen and (max-width: bp-max-md)
+    padding: 1rem
+
+    &::after
+      height: 100%
+
+
+.image-out-bg-5
+  position: relative
+  &::after
+    content: ''
+    position: absolute
+    bottom: 0%
+    left: 0
+    width: 100%
+    height: 85%
+    transform: translateY(-0%)
+    background-color: #453179
     z-index: 0
   .col-lg-auto, .col-lg, .row
     z-index: 1
