@@ -440,7 +440,7 @@
     
           .col-lg-8
             h2.mb-4(data-aos="flip-up") Orientaciones pedagógicas para la educación física, recreación y deporte (Doc. 15 MEN)
-            p.mb-4(data-aos="fade-right") Los invitamos a leer #[strong ]"Orientaciones pedagógicas para la educación física, recreación y deporte (Doc. 15 MEN)"], un documento clave para comprender el enfoque actual de la educación física en Colombia.
+            p.mb-4(data-aos="fade-right") Los invitamos a leer #[strong "Orientaciones pedagógicas para la educación física, recreación y deporte (Doc. 15 MEN)"], un documento clave para comprender el enfoque actual de la educación física en Colombia.
     
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")

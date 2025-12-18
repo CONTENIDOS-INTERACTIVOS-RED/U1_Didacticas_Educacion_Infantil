@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 DEl juego es esencial en el desarrollo infantil, promoviendo habilidades cognitivas, emocionales, sociales y físicas. El documento 22 del MEN destaca su importancia como derecho fundamental, orientando a educadores en su integración pedagógica. Se clasifican distintos tipos de juegos: libre, dirigido, de roles, cooperativo y de construcción, cada uno con reglas flexibles y adaptables. Además, los juegos didácticos fortalecen el aprendizaje a través de la interacción y la creatividad. Finalmente, la recreación escolar fomenta el pensamiento, la convivencia y el bienestar, requiriendo planificación y evaluación para su implementación efectiva.
+              p.descripcion.mb-4 El juego es esencial en el desarrollo infantil, promoviendo habilidades cognitivas, emocionales, sociales y físicas. El documento 22 del MEN destaca su importancia como derecho fundamental, orientando a educadores en su integración pedagógica. Se clasifican distintos tipos de juegos: libre, dirigido, de roles, cooperativo y de construcción, cada uno con reglas flexibles y adaptables. Además, los juegos didácticos fortalecen el aprendizaje a través de la interacción y la creatividad. Finalmente, la recreación escolar fomenta el pensamiento, la convivencia y el bienestar, requiriendo planificación y evaluación para su implementación efectiva.
               
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

@@ -199,6 +199,19 @@
                 .div(titulo="Realizar pruebas piloto")
                   p Aplicar el juego con un grupo reducido antes de su implementación total. #[strong Ejemplo:] En una prueba piloto de un juego de cálculo mental, se ajustó la dificultad de las preguntas.
 
+                .div(titulo="Implementación y evaluación del juego")
+                  p Aplicar el juego en el aula y medir su impacto en el aprendizaje. Ejemplo: se puede evaluar con:
+                  ul.lista-ul.mb-3
+                    li.mb-1
+                      i.lista-ul__vineta
+                      | Observación de la participación.
+                    li.mb-1
+                      i.lista-ul__vineta
+                      | Encuestas de percepción.
+                    li.mb-1
+                      i.lista-ul__vineta
+                      | Pruebas antes y después del juego.
+
               
             .col-lg-4.order-1.order-lg-2
               figure
